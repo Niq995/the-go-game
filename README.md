@@ -27,7 +27,7 @@ I manage user's interaction (place stones on the intersaction of the board) with
 Information flow: (components) square->board->game->App->index<br>
 **Components:**<br>
 * `square.js`: <br>Only handle generating one grid and set it into a button, onclick it will display its parent.prop.value(setted in board.js)<br>
-* [board.js]: <br>Render the whole 9x9 board using *<div>* tag, with each small one square rendered by square.js render() method.<br>
+* 'board.js': <br>Render the whole 9x9 board using *<div>* tag, with each small one square rendered by square.js render() method.<br>
 * `game.js`:(This is the main component of the game)<br>
   It contains states & methods:<br>
   * `history` (array[array[9x9]]): Every time put a stone on board, history will copy the whole array[81](from board component) state and append the new array into its original one, therefore prepare it to jump back if the user wants to.
