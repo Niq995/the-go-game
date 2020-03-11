@@ -7,6 +7,7 @@
   <br>Implement the game but not the game rule in a 9x9 grid board.
   <br>Players can trace back into history, back to the beginning of the game or pass his/her turn.
   <br>Players can remove stones when click on the existing stone on the board.
+### Working on other features about the rule when I got time
 
 ## How to run this project:
 Way 1: Simply click on this link and "show": https://glitch.com/~niq5-webassignment-2
