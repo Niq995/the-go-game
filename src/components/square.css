@@ -1,0 +1,23 @@
+.square {
+  background: url("https://cdn.glitch.com/11327cbd-7d65-4382-8bc6-d8bf25c0581f%2Fgogrid.png?v=1583170630969");
+  background-size: 34px 34px;
+  border: 0px solid #999;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
